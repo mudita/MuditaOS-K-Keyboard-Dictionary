@@ -1,0 +1,16 @@
+# Generated dictionary-processing artifacts
+Parsed/
+fixed/
+*.bak
+*.grown
+*.bigram
+*.fixed
+added_words.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
