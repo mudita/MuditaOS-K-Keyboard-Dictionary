@@ -22,7 +22,7 @@ sys.path.insert(0, _SCRIPT_DIR)
 
 from profanity_data import PROFANITY_DB, STOP_WORDS_DB
 
-WORD_RE = re.compile(r"^(?:  bigram| word)=([^,]+),")
+WORD_RE = re.compile(r"^\s*(?:bigram|word)=([^,]+),")
 OFFENSIVE_TAG = ",possibly_offensive=true"
 
 
