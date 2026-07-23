@@ -41,7 +41,7 @@ Each script directory has its own README with detailed usage instructions, param
 ## File Formats
 
 - **`.combined`** — plain-text AOSP dictionary source format: one `word=` line per entry (with a frequency score `f=`), followed by up to a few indented `bigram=` lines.
-- **`.dict`** — compiled binary AOSP dictionary format, consumed directly by the keyboard. Compiling `.combined` files into `.dict` binaries requires an external AOSP tool that is not part of this repository.
+- **`.dict`** — compiled binary AOSP dictionary format, consumed directly by the keyboard. Compiling `.combined` files into `.dict` binaries requires an external AOSP tool that is not part of this repository. This external tool is available here: https://android.googlesource.com/platform/packages/inputmethods/LatinIME/+/refs/heads/main/tools/dicttool/
 
 ## Notes
 
